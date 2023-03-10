@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnWrap {
+  button {
+    border: 0;
+    padding: 12px 20px;
+    background: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .create_btn {
+    border: 1px solid var(--btn-hvrbrd-clr);
+    background: var(--primary);
+    color: var(--white);
+  }
+
+  .create_btn:hover {
+    background: var(--btn-hvrbrd-clr);
+  }
+
+  .cancel_btn {
+    border: 1px solid var(--border-clr);
+    color: var(--text-clr);
+    margin-right: 10px;
+  }
+
+  .cancel_btn:hover {
+    background: var(--border-clr);
+  }
+}
+.addBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  button {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    border: 0;
+    padding: 12px 20px;
+    background: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    background: var(--primary);
+    border: 1px solid var(--btn-hvrbrd-clr);
+    color: white;
+  }
+  button:hover {
+    background: var(--btn-hvrbrd-clr);
+  }
+}

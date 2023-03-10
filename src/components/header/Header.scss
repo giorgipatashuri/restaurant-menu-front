@@ -1,0 +1,24 @@
+header {
+  padding: 10px;
+  padding: 10px 20px 10px 20px;
+  height: 60px;
+  box-shadow: 0px 5px 5px -5px rgb(0 0 0 /10%);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header {
+  padding: 1.3rem 1rem;
+  background: #e9edf2;
+  border-bottom: 1px solid #dee2e8;
+}
+
+.page-header h1,
+.page-header small {
+  color: #74767d;
+}
+.logout {
+  align-self: flex-end;
+}
