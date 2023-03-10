@@ -74,7 +74,7 @@ const Card: FC<cardProps> = ({ id, name, descr, price, imgUrl, onDelete, isAdmin
         <img src={imgUrl} alt={name} />
         <div className='card-content'>
           <h2>{name}</h2>
-          <h4>{price}</h4>
+          <h4>{price} ლარი</h4>
           <p>{descr}</p>
         </div>
         {isAdmin && (
